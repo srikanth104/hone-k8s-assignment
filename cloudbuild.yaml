@@ -1,0 +1,12 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      [
+        'build',
+        '-t',
+        'srikanth104/home-api:v1',
+        './app'
+      ]
+
+images:
+  - 'srikanth104/home-api:v1'
