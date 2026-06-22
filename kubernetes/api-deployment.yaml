@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: home-api
-          image: REPLACE_LATER
+          image: srikanth104/hone-api:v1
 
           ports:
             - containerPort: 5000
