@@ -4,8 +4,6 @@ metadata:
   name: home-api-ingress
   namespace: home
 spec:
-  ingressClassName: nginx
-
   rules:
     - http:
         paths:
