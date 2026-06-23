@@ -178,12 +178,6 @@ Passwords are never hardcoded in application code or deployment manifests.
 
 Database persistence is achieved using a Persistent Volume Claim.
 
-Benefits:
-
-* Data survives pod deletion.
-* Data survives StatefulSet recreation.
-* Employee records remain intact after MySQL pod restarts.
-
 ---
 
 # Self-Healing Demonstration
